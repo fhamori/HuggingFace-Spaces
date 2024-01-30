@@ -149,13 +149,13 @@ entries:
       HF_TOKEN:
         default: ""
         description: "Hugging Face Token (HuggingFace->Settings->Access Tokens)"
-        required: true
+        required: false
         tooltip: "Get your token from HuggingFace->Settings->Access Tokens"
       HUGGING_FACE_HUB_TOKEN:
-        default: ""
-        description: "Hugging Face Token (HuggingFace->Settings->Access Tokens)"
+        default: "my_default"
+        description: "my_description"
         required: true
-        tooltip: "Get your token from HuggingFace->Settings->Access Tokens"
+        tooltip: "my_tooltip"
   - title: Can You Run It? LLM version 
     label: Run-llm-version
     short_description: This is a demo to check if LLM can be executed,
